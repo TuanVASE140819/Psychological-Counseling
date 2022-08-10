@@ -135,4 +135,16 @@
             }
         }
     }
+
+    .bx-shopping-bag:before {
+        content: "\eb68";
+        font-size: 30px;
+    }
+
+    .bx-user:before {
+        content: "\ebbf";
+        font-size: 30px;
+
+    }
+
 }
