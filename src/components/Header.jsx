@@ -10,15 +10,15 @@ const mainNav = [
   },
   {
     display: "Live Astrologers",
-    path: "/catalog"
+    path: "/live"
   },
   {
     display: "Free Kundli",
-    path: "/accessories"
+    path: "/freekundli"
   },
   {
     display: "Kudli Matiching",
-    path: "/contact"
+    path: "/kundlimatching"
   }
 ];
 
