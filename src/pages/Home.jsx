@@ -18,12 +18,12 @@ const Home = () => {
   return (
     <Helmet title="Trang chủ">
       {/* hero slider */}
-      <HeroSlider
+      {/* <HeroSlider
         data={heroSliderData}
         control={true}
         auto={false}
         timeOut={5000}
-      />
+      /> */}
       {/* end hero slider */}
 
       {/* policy section */}
@@ -89,13 +89,13 @@ const Home = () => {
       {/* end new arrival section */}
 
       {/* banner */}
-      <Section>
+      {/* <Section>
         <SectionBody>
           <Link to="/catalog">
             <img src={banner} alt="" />
           </Link>
         </SectionBody>
-      </Section>
+      </Section> */}
       {/* end banner */}
 
       {/* popular product section */}
