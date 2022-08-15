@@ -8,6 +8,7 @@ import Cart from "../pages/Cart";
 import Product from "../pages/Product";
 import Login from "../pages/Login";
 import PersonForm from "../pages/PersonForm";
+import Chat from "../components/Chat";
 
 const Routes = () => {
   return (
@@ -18,6 +19,7 @@ const Routes = () => {
       <Route path="/cart" component={Cart} />
       <Route path="/login" component={Login} />
       <Route path="/PersonForm" component={PersonForm} />
+      <Route path='/chat' component={Chat} />
     </Switch>
   );
 };

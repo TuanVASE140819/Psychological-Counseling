@@ -1,0 +1,112 @@
+.cart {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    width: 90%;
+    margin: auto;
+
+    @include Responsive(LG) {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+        width: 80%;
+        margin: auto;
+    }
+
+    @include Responsive(SM) {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+        width: 80%;
+        margin: auto;
+    }
+
+    .card-background {
+        background-color: #fff;
+        position: relative;
+        box-shadow: 0 0 10px #ccc;
+        border-radius: 10px;
+        margin-bottom: 22px;
+        text-decoration: none;
+        width: 100%;
+        margin-top: 20px;
+
+        .card-body {
+            display: flex;
+
+            padding: 12px 15px 8px;
+
+            .card-l {
+                padding-right: 15px;
+
+                .image {
+                    width: 80px;
+                    border-radius: 50%;
+                    -moz-border-radius: 50%;
+                    -webkit-border-radius: 50%;
+                }
+
+                .start {
+                    padding-left: 7px;
+                    padding-top: 15px;
+                    font-size: 14px;
+                }
+
+                .text-order {
+                    padding-left: 7px;
+                    font-size: 11px;
+                }
+            }
+
+            .card-c {
+                .text-c {
+                    font-size: 12px;
+                    margin: 5px 0;
+                }
+
+                .text-h6 {
+                    padding-top: 5px;
+                }
+            }
+
+            .card-r {
+                position: absolute;
+                right: 10px;
+
+
+                .card-icon {
+                    position: absolute;
+                    right: 0px;
+                }
+
+                .card-button {
+                    margin-top: 80px;
+
+                    .button-chat {
+                        font-size: 18px;
+                        font-weight: bold;
+                        padding: 5px 10px;
+                        color: #eb0029;
+                        background-color: #fff;
+                        border: 1px solid #eb0029;
+                        border-radius: 10px;
+                    }
+
+                    .text-button {
+                        width: 100%;
+                        overflow: hidden;
+                        white-space: nowrap;
+                        text-overflow: clip;
+                        font-size: 9px;
+                        font-weight: lighter;
+                        padding-top: 2px;
+                        color: #eb0029;
+                        opacity: .6;
+                        margin-left: 12px;
+
+                    }
+                }
+            }
+        }
+    }
+}
