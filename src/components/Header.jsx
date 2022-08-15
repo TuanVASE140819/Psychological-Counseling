@@ -14,7 +14,7 @@ const mainNav = [
   },
   {
     display: "Free Kundli",
-    path: "/freekundli"
+    path: "/PersonForm"
   },
   {
     display: "Kudli Matiching",
