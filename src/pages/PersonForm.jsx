@@ -79,6 +79,7 @@ const PersonForm = () => {
                   <div className="input-field">
                     <label>place of birth</label>
                     <input
+                    className="input_place"
                       type="text"
                       placeholder="Enter place of birth"
                       required
