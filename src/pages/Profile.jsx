@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-export default function Chat() {
+export default function Profile() {
   const arrrCart = [
     {
       img: "https://picsum.photos/200",
@@ -11,96 +11,6 @@ export default function Chat() {
       exp: "21 Years",
       time: "USA 3.44 / min",
       active: false
-    },
-    {
-      img: "https://picsum.photos/200",
-      name: "Tuan",
-      a: "Vedic, Tarot",
-      address: "English, Hindi",
-      exp: "21 Years",
-      time: "USA 3.44 / min",
-      active: false
-    },
-    {
-      img: "https://picsum.photos/200",
-      name: "Dung",
-      a: "Vedic, Tarot",
-      address: "English, Hindi",
-      exp: "21 Years",
-      time: "USA 3.44 / min",
-      active: true
-    },
-    {
-      img: "https://picsum.photos/200",
-      name: "Toan",
-      a: "Vedic, Tarot",
-      address: "English, Hindi",
-      exp: "21 Years",
-      time: "USA 3.44 / min",
-      active: true
-    },
-    {
-      img: "https://picsum.photos/200",
-      name: "fafsafsa",
-      a: "Vedic, Tarot",
-      address: "English, Hindi",
-      exp: "21 Years",
-      time: "USA 3.44 / min",
-      active: true
-    },
-    {
-      img: "https://picsum.photos/200",
-      name: "Toan",
-      a: "Vedic, Tarot",
-      address: "English, Hindi",
-      exp: "21 Years",
-      time: "USA 3.44 / min",
-      active: true
-    },
-    {
-      img: "https://picsum.photos/200",
-      name: "fafsafsa",
-      a: "Vedic, Tarot",
-      address: "English, Hindi",
-      exp: "21 Years",
-      time: "USA 3.44 / min",
-      active: true
-    },
-    {
-      img: "https://picsum.photos/200",
-      name: "Toan",
-      a: "Vedic, Tarot",
-      address: "English, Hindi",
-      exp: "21 Years",
-      time: "USA 3.44 / min",
-      active: true
-    },
-    {
-      img: "https://picsum.photos/200",
-      name: "fafsafsa",
-      a: "Vedic, Tarot",
-      address: "English, Hindi",
-      exp: "21 Years",
-      time: "USA 3.44 / min",
-      active: true
-    },
-    {
-      img: "https://picsum.photos/200",
-      name: "Toan",
-      a: "Vedic, Tarot",
-      address: "English, Hindi",
-      exp: "21 Years",
-      time: "USA 3.44 / min",
-      active: true
-    },
-    {
-      img: "https://picsum.photos/200",
-      name: "fafsafsa",
-      a: "Vedic, Tarot",
-      address: "English, Hindi",
-      exp: "21 Years",
-      time: "USA 3.44 / min",
-      active: true
     }
   ];
   return (
