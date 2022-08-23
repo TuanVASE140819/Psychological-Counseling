@@ -17,15 +17,6 @@ import banner from "../assets/images/banner.png";
 const Home = () => {
   return (
     <Helmet title="Trang chủ">
-      {/* hero slider */}
-      {/* <HeroSlider
-        data={heroSliderData}
-        control={true}
-        auto={false}
-        timeOut={5000}
-      /> */}
-      {/* end hero slider */}
-
       {/* policy section */}
       <Section>
         <SectionBody>
@@ -42,10 +33,19 @@ const Home = () => {
           </Grid>
         </SectionBody>
       </Section>
+
+      {/* hero slider */}
+      <HeroSlider
+        data={heroSliderData}
+        control={true}
+        auto={true}
+        timeOut={2500}
+      />
+      {/* end hero slider */}
       {/* end policy section */}
 
       {/* best selling section */}
-      <Section>
+      {/* <Section>
         <SectionTitle>our top home crystal</SectionTitle>
         <SectionBody>
           <Grid col={4} mdCol={2} smCol={1} gap={20}>
@@ -63,11 +63,11 @@ const Home = () => {
             ))}
           </Grid>
         </SectionBody>
-      </Section>
+      </Section> */}
       {/* end best selling section */}
 
       {/* new arrival section */}
-      <Section>
+      {/* <Section>
         <SectionTitle>ASTROTALK REVIEWS FROM OUR CUSTOMERS</SectionTitle>
         <SectionBody>
           <Grid col={4} mdCol={2} smCol={1} gap={20}>
@@ -85,7 +85,7 @@ const Home = () => {
             ))}
           </Grid>
         </SectionBody>
-      </Section>
+      </Section> */}
       {/* end new arrival section */}
 
       {/* banner */}
@@ -99,7 +99,7 @@ const Home = () => {
       {/* end banner */}
 
       {/* popular product section */}
-      <Section>
+      {/* <Section>
         <SectionTitle>phổ biến</SectionTitle>
         <SectionBody>
           <Grid col={4} mdCol={2} smCol={1} gap={20}>
@@ -117,7 +117,7 @@ const Home = () => {
             ))}
           </Grid>
         </SectionBody>
-      </Section>
+      </Section> */}
       {/* end popular product section */}
     </Helmet>
   );
