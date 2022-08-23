@@ -7,25 +7,37 @@ const heroSliderData = [
     title: "Reetika Verma",
     description:
       " Thanks Astrotalk for being available at my difficult time and motivating me to get through that phase. I am finally doing good now after Navgrah Pooja performed by them. The complete process was very smooth. I'll recommend it to my friends. ",
-    img: img1,
-    color: "purple",
-    path: "/catalog/ao-thun-dinosaur-01"
+    color: "purple"
   },
   {
     title: "Dale Stricklin",
     description:
       " There is no comparison of Astrotalk when it comes to getting a free horoscope and checking horoscope online in the Astrology industry. They have revolutionized everything with excellent customer service by having a controlled marketplace for best astrologers from India. ",
-    img: img2,
-    path: "/catalog/ao-thun-dinosaur-02",
     color: "pink"
   },
   {
     title: "Gurdeep Chawla",
     description:
       " I really love the service of Astrotalk. Astrologers are really skilled and co-operative. Customer support team is very active and friendly. I get all answers and have a good conversation with astrologers at a decent price. And the predictions are also very accurate. ",
-    img: img3,
-    path: "/catalog/ao-thun-dinosaur-03",
     color: "orange"
+  },
+  {
+    title: "Dale Stricklin",
+    description:
+      " There is no comparison of Astrotalk when it comes to getting a free horoscope and checking horoscope online in the Astrology industry. They have revolutionized everything with excellent customer service by having a controlled marketplace for best astrologers from India. ",
+    color: "pink"
+  },
+  {
+    title: "Dale Stricklin",
+    description:
+      " There is no comparison of Astrotalk when it comes to getting a free horoscope and checking horoscope online in the Astrology industry. They have revolutionized everything with excellent customer service by having a controlled marketplace for best astrologers from India. ",
+    color: "pink"
+  },
+  {
+    title: "Dale Stricklin",
+    description:
+      " There is no comparison of Astrotalk when it comes to getting a free horoscope and checking horoscope online in the Astrology industry. They have revolutionized everything with excellent customer service by having a controlled marketplace for best astrologers from India. ",
+    color: "pink"
   }
 ];
 
