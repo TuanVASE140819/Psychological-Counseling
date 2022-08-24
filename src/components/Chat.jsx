@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-export default function Chat() {
+export default function Chat () {
   const arrrCart = [
     {
       img: "https://picsum.photos/200",
@@ -167,9 +167,11 @@ export default function Chat() {
                   </Link>
 
                   <div className="card-button">
-                    <button className="button-chat">
-                      {item.active ? "Chat" : "Wait"}
-                    </button>
+                    <Link to='/formchat'>
+                      <button className="button-chat">
+                        {item.active ? "Chat" : "Wait"}
+                      </button>
+                    </Link>
                     <p className="text-button"> Wait~10 </p>
                   </div>
                 </div>
