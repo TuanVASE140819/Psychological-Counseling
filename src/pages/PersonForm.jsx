@@ -5,36 +5,36 @@ const PersonForm = () => {
     
       <div className="container_personform">
         <header className="header_personform">
-        <h4>Fill Up Partner's Detail</h4></header>
+        <h4>Điền vào thông tin chi tiết của đối tác</h4></header>
         <form action="#">
           <div className="form_first">
             <div className="details_personal">
-              <span className="title">First Person</span>
+              <span className="title">Người 1</span>
               <div className="fields">
                 <div className="input-field">
-                  <label>Full Name</label>
-                  <input type="text" placeholder="Enter your name" required />
+                  <label>Họ và tên</label>
+                  <input type="text" placeholder="Nhập tên của bạn" required />
                 </div>
                 <div className="input-field">
-                  <label>Gender</label>
+                  <label>Giới tính</label>
                   <select required>
                     <option disabled selected>
-                      Select gender
+                    Chọn giới tính
                     </option>
-                    <option>Male</option>
-                    <option>Female</option>
-                    <option>Others</option>
+                    <option>Nam</option>
+                    <option>Nữ</option>
+                    <option>Khác</option>
                   </select>
                 </div>
                 <div className="input-field">
-                  <label>Date of Birth</label>
-                  <input type="date" placeholder="Enter birth date" required />
+                  <label>Ngày sinh</label>
+                  <input type="date" placeholder="Nhập ngày sinh" required />
                 </div>
                 <div className="input-field">
-                  <label>place of birth</label>
+                  <label>Nhập nơi sinh</label>
                   <input
                     type="text"
-                    placeholder="Enter place of birth"
+                    placeholder="Nhập nơi sinh"
                     required
                   />
                 </div>
@@ -49,42 +49,35 @@ const PersonForm = () => {
           </div>
           <div className="clear" />
           <div className="form_second">
-            <div className="details_personal">
-              <div>
-                <span className="title">Second Person</span>
-                <div className="fields">
-                  <div className="input-field">
-                    <label>Full Name</label>
-                    <input type="text" placeholder="Enter your name" required />
-                  </div>
-                  <div className="input-field">
-                    <label>Gender</label>
-                    <select required>
-                      <option disabled selected>
-                        Select gender
-                      </option>
-                      <option>Male</option>
-                      <option>Female</option>
-                      <option>Others</option>
-                    </select>
-                  </div>
-                  <div className="input-field">
-                    <label>Date of Birth</label>
-                    <input
-                      type="date"
-                      placeholder="Enter birth date"
-                      required
-                    />
-                  </div>
-                  <div className="input-field">
-                    <label>place of birth</label>
-                    <input
-                    className="input_place"
-                      type="text"
-                      placeholder="Enter place of birth"
-                      required
-                    />
-                  </div>
+          <div className="details_personal">
+              <span className="title">Người 2</span>
+              <div className="fields">
+                <div className="input-field">
+                  <label>Họ và tên</label>
+                  <input type="text" placeholder="Nhập tên của bạn" required />
+                </div>
+                <div className="input-field">
+                  <label>Giới tính</label>
+                  <select required>
+                    <option disabled selected>
+                    Chọn giới tính
+                    </option>
+                    <option>Nam</option>
+                    <option>Nữ</option>
+                    <option>Khác</option>
+                  </select>
+                </div>
+                <div className="input-field">
+                  <label>Ngày sinh</label>
+                  <input type="date" placeholder="Nhập ngày sinh" required />
+                </div>
+                <div className="input-field">
+                  <label>Nhập nơi sinh</label>
+                  <input
+                    type="text"
+                    placeholder="Nhập nơi sinh"
+                    required
+                  />
                 </div>
               </div>
             </div>

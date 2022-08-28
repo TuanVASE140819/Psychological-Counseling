@@ -1,24 +1,24 @@
 const policy = [
   {
-    name: "Chat with Astrologer",
+    name: "Nhắn tin",
 
     icon: "bx bx-chat",
     path: "chat"
   },
   {
-    name: "Talk to Astrologer",
+    name: "Trò chuyên trực tiếp",
 
     icon: "bx bx-credit-card",
     path: "talk"
   },
   {
-    name: "Live Event",
+    name: " Sự kiên trực tiếp",
 
     icon: "bx bx-video-plus",
     path: "live"
   },
   {
-    name: "Astrotalk Blog",
+    name: "Diễn đàn",
 
     icon: "bx bx-donate-heart",
     path: "blog"

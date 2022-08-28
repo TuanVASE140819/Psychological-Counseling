@@ -5,123 +5,88 @@ export default function Chat () {
   const arrrCart = [
     {
       img: "https://picsum.photos/200",
-      name: "Sharma",
-      a: "Vedic, Tarot",
-      address: "English, Hindi",
-      exp: "21 Years",
-      time: "USA 3.44 / min",
+      name: "Vũ Anh Tuấn",
+      // a: "Vedic, Tarot",
+      language: "Gia đình, Kinh doanh, Phong thủy",
+      exp: "21 Tuổi",
+      time: "Chỉ  từ 5 cua",
       active: false
     },
     {
       img: "https://picsum.photos/200",
-      name: "Tuan",
-      a: "Vedic, Tarot",
-      address: "English, Hindi",
-      exp: "21 Years",
-      time: "USA 3.44 / min",
+      name: "Vũ Anh Tuấn",
+      // a: "Vedic, Tarot",
+      language: "Gia đình, Kinh doanh, Phong thủy",
+      exp: "21 Tuổi",
+      time: "Chỉ  từ 5 cua",
       active: false
     },
     {
       img: "https://picsum.photos/200",
-      name: "Dung",
-      a: "Vedic, Tarot",
-      address: "English, Hindi",
-      exp: "21 Years",
-      time: "USA 3.44 / min",
+      name: "Vũ Anh Tuấn",
+      // a: "Vedic, Tarot",
+      language: "Gia đình, Kinh doanh, Phong thủy",
+      exp: "21 Tuổi",
+      time: "Chỉ  từ 5 cua",
+      active: false
+    },
+    {
+      img: "https://picsum.photos/200",
+      name: "Vũ Anh Tuấn",
+      // a: "Vedic, Tarot",
+      language: "Gia đình, Kinh doanh, Phong thủy",
+      exp: "21 Tuổi",
+      time: "Chỉ  từ 5 cua",
       active: true
     },
     {
       img: "https://picsum.photos/200",
-      name: "Toan",
-      a: "Vedic, Tarot",
-      address: "English, Hindi",
-      exp: "21 Years",
-      time: "USA 3.44 / min",
+      name: "Vũ Anh Tuấn",
+      // a: "Vedic, Tarot",
+      language: "Gia đình, Kinh doanh, Phong thủy",
+      exp: "21 Tuổi",
+      time: "Chỉ  từ 5 cua",
       active: true
     },
     {
       img: "https://picsum.photos/200",
-      name: "fafsafsa",
-      a: "Vedic, Tarot",
-      address: "English, Hindi",
-      exp: "21 Years",
-      time: "USA 3.44 / min",
+      name: "Vũ Anh Tuấn",
+      // a: "Vedic, Tarot",
+      language: "Gia đình, Kinh doanh, Phong thủy",
+      exp: "21 Tuổi",
+      time: "Chỉ  từ 5 cua",
       active: true
     },
     {
       img: "https://picsum.photos/200",
-      name: "Toan",
-      a: "Vedic, Tarot",
-      address: "English, Hindi",
-      exp: "21 Years",
-      time: "USA 3.44 / min",
-      active: true
-    },
-    {
-      img: "https://picsum.photos/200",
-      name: "fafsafsa",
-      a: "Vedic, Tarot",
-      address: "English, Hindi",
-      exp: "21 Years",
-      time: "USA 3.44 / min",
-      active: true
-    },
-    {
-      img: "https://picsum.photos/200",
-      name: "Toan",
-      a: "Vedic, Tarot",
-      address: "English, Hindi",
-      exp: "21 Years",
-      time: "USA 3.44 / min",
-      active: true
-    },
-    {
-      img: "https://picsum.photos/200",
-      name: "fafsafsa",
-      a: "Vedic, Tarot",
-      address: "English, Hindi",
-      exp: "21 Years",
-      time: "USA 3.44 / min",
-      active: true
-    },
-    {
-      img: "https://picsum.photos/200",
-      name: "Toan",
-      a: "Vedic, Tarot",
-      address: "English, Hindi",
-      exp: "21 Years",
-      time: "USA 3.44 / min",
-      active: true
-    },
-    {
-      img: "https://picsum.photos/200",
-      name: "fafsafsa",
-      a: "Vedic, Tarot",
-      address: "English, Hindi",
-      exp: "21 Years",
-      time: "USA 3.44 / min",
-      active: true
+      name: "Vũ Anh Tuấn",
+      // a: "Vedic, Tarot",
+      language: "Gia đình, Kinh doanh, Phong thủy",
+      exp: "21 Tuổi",
+      time: "Chỉ  từ 5 cua",
+      active: false
     }
+    
   ];
   return (
     <div>
       <div className="chat-header">
-        <div className="pay">Available balance: USD 0.00</div>
-        <div className="rechange">Rechange</div>
+        <div className="pay">Số dư khả dụng: 500 cua</div>
+        {/* <div className="rechange">Rechange</div> */}
         <div className="filter">
           <i class="fa fa-filter"> </i>
-          Filter
+          Lọc
         </div>
         <div className="Soft-by">
           <i class="fa fa-sort-amount-asc"></i>
-          Soft by
+          Sắp xếp theo
         </div>
 
         <div class="relative text-gray-600">
           <input
             type="search"
             name="serch"
-            placeholder="Search name"
+            placeholder="Tìm kiếm theo tên" 
             class="bg-white h-10 px-5 pr-10 rounded-full text-sm focus:outline-none "
           />
           <img src="https://img.icons8.com/material-outlined/24/000000/search.png" />
@@ -152,8 +117,8 @@ export default function Chat () {
                   <Link to="/Profile">
                     <h5 className=""> {item.name} </h5>
                   </Link>
-                  <p className="text-c">{item.a} </p>
-                  <p className="text-c"> {item.address} </p>
+                  <p className="text-c">{item.language} </p>
+                  {/* <p className="text-c"> {item.address} </p> */}
                   <p className="text-c"> {item.exp} </p>
                   <h6 className="text-h6"> {item.time} </h6>
                 </div>
@@ -169,7 +134,7 @@ export default function Chat () {
                   <div className="card-button">
                     <Link to='/formchat'>
                       <button className="button-chat">
-                        {item.active ? "Chat" : "Wait"}
+                        {item.active ? "Trò chuyện" : "Chờ"}
                       </button>
                     </Link>
                     <p className="text-button"> Wait~10 </p>
