@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+
 export default function Chat () {
   const arrrCart = [
     {
@@ -108,7 +109,7 @@ export default function Chat () {
       <div className="chat-header">
         <div className="pay">Available balance: USD 0.00</div>
         <div className="rechange">Rechange</div>
-        <div className="filter">
+        <div className="filter" data-toggle="modal" data-target="#exampleModalCenter">
           <i class="fa fa-filter"> </i>
           Filter
         </div>
@@ -179,7 +180,85 @@ export default function Chat () {
             </div>
           );
         })}
+
       </div>
-    </div>
+
+      <div className="modal fade" id="exampleModalCenter" tabIndex={-1} role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div className="modal-dialog modal-dialog-centered " role="document">
+          <div className="modal-content ">
+            <div className="modal-header ">
+              <h5 className="modal-title" id="exampleModalLongTitle">Filter</h5>
+              <button type="button" className="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">×</span>
+              </button>
+            </div>
+            <div className="modal-body">
+              < div class="naccs">
+                <div className="row">
+                  <div className="gc gc--1-of-3">
+                    <div className="menu">
+                      <div className="active"><span className="light" /><span>Beer</span></div>
+                      <div><span className="light" /><span>Wine</span></div>
+                      <div><span className="light" /><span>Lemonade</span></div>
+                    </div>
+                    <div className="">
+                      <div style={{ backgroundColor: 'black', width: '1px', height: '100%' }}>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="gc gc--2-of-3 ">
+
+                    <ul className="nacc">
+                      <li className="active">
+                        <div class="form-check">
+                          <form action="#">
+                            <p className="p-text">
+                              <input type="radio" id="test1" name="radio-group" defaultChecked />
+                              <label htmlFor="test1">Apple</label>
+                            </p>
+                            <p className="p-text">
+                              <input type="radio" id="test2" name="radio-group" />
+                              <label htmlFor="test2">Peach</label>
+                            </p>
+                            <p className="p-text">
+                              <input type="radio" id="test3" name="radio-group" />
+                              <label htmlFor="test3">Orange</label>
+                            </p>
+
+
+                          </form>
+
+                        </div>
+                      </li>
+                      <li>
+                        <div>
+                          <p>A vine (Latin vīnea "grapevine", "vineyard", from vīnum "wine") in the narrowest sense is the grapevine (Vitis), but more generally it can refer to any plant with a growth habit of trailing or scandent (that is, climbing) stems, lianas or runners.
+                            The word also can refer to such stems or runners themselves, for instance when used in wicker work.[1][2] In the United Kingdom, the term "vine" applies almost exclusively to the grapevine. The term "climber" is used for all climbing plants.[3]</p>
+                        </div>
+                      </li>
+                      <li>
+                        <div>
+                          <p>Lemonade is any of various sweetened beverages found around the world, all characterized by lemon flavor. Most lemonade varieties can be separated into two distinct types: cloudy and clear; each is known simply as "lemonade" (or a cognate) in countries
+                            where dominant.[1] Cloudy lemonade, generally found in North America and India, is a traditionally homemade drink made with lemon juice, water, and sweetener such as cane sugar or honey.[2] Found in the United Kingdom, Ireland, South Africa, Australia,
+                            and New Zealand, clear lemonade is a lemon flavoured carbonated soft drink. Not to be confused with Sprite a lemon-lime flavored, soft drink.</p>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+            <div className="modal-footer">
+              <button type="button" className="filter_btns" >Reset</button>
+              <button type="button" className="filter_btns apply_btn">Apply</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div >
   );
 }
