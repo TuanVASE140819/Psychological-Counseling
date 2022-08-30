@@ -13,10 +13,15 @@ import policy from "../assets/fake-data/policy";
 import productData from "../assets/fake-data/products";
 
 import banner from "../assets/images/banner.png";
+import HeaderConstant from "../components/HeaderConstantChinese";
 
 const Home = () => {
   return (
+    
     <Helmet title="Trang chủ">
+
+<HeaderConstant />
+
       {/* policy section */}
       <Section>
         <SectionBody>
@@ -33,14 +38,14 @@ const Home = () => {
           </Grid>
         </SectionBody>
       </Section>
-
-      {/* hero slider */}
+{/* 
+      hero slider
       <HeroSlider
         data={heroSliderData}
         control={true}
         auto={true}
         timeOut={2500}
-      />
+      /> */}
       {/* end hero slider */}
       {/* end policy section */}
 
@@ -119,7 +124,11 @@ const Home = () => {
         </SectionBody>
       </Section> */}
       {/* end popular product section */}
+
+      {/* Constant header */}
+
     </Helmet>
+    
   );
 };
 
