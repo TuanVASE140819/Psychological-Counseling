@@ -62,9 +62,11 @@
         .text-c {
           font-size: 12px;
           margin: 5px 0;
+          width: 100%;
         }
 
         .text-h6 {
+          width: 100%;
           padding-top: 5px;
         }
       }
@@ -160,4 +162,68 @@
 
 .search-btn {
   color: #eb0029 !important;
+}
+
+.loading .image,
+.loading .start,
+.loading .text-order,
+.loading .text-c,
+.loading .text-h6,
+.loading .card-icon,
+.loading .button-chat,
+.loading .text-button {
+  position: relative;
+  overflow: hidden;
+}
+
+.loading .image::before,
+.loading .start::before,
+.loading .text-order::before,
+.loading .text-c::before,
+.loading .text-h6::before,
+.loading .text-button::before {
+  background-color: #dddddd;
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.loading .image::after,
+.loading .start::after,
+.loading .text-order::after,
+.loading .text-c::after,
+.loading .text-h6::after,
+.loading .text-button::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    to right,
+    #dddddd 0%,
+    #ffffff 20%,
+    #ffffff 40%,
+    #ffffff 60%,
+    #ffffff 80%,
+    #ffffff 100%
+  );
+  animation: skeletonLoading 2s infinite alternate;
+}
+
+@keyframes skeletonLoading {
+  from {
+    left: -50%;
+  }
+  to {
+    left: 50%;
+  }
 }
