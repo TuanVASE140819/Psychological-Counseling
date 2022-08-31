@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-export default function Chat () {
+export default function Chat() {
   const arrrCart = [
     {
       img: "https://picsum.photos/200",
@@ -10,7 +10,7 @@ export default function Chat () {
       language: "Gia đình, Kinh doanh, Phong thủy",
       exp: "21 Tuổi",
       time: "Chỉ  từ 5 cua",
-      active: false
+      active: false,
     },
     {
       img: "https://picsum.photos/200",
@@ -19,7 +19,7 @@ export default function Chat () {
       language: "Gia đình, Kinh doanh, Phong thủy",
       exp: "21 Tuổi",
       time: "Chỉ  từ 5 cua",
-      active: false
+      active: false,
     },
     {
       img: "https://picsum.photos/200",
@@ -28,7 +28,7 @@ export default function Chat () {
       language: "Gia đình, Kinh doanh, Phong thủy",
       exp: "21 Tuổi",
       time: "Chỉ  từ 5 cua",
-      active: false
+      active: false,
     },
     {
       img: "https://picsum.photos/200",
@@ -37,7 +37,7 @@ export default function Chat () {
       language: "Gia đình, Kinh doanh, Phong thủy",
       exp: "21 Tuổi",
       time: "Chỉ  từ 5 cua",
-      active: true
+      active: true,
     },
     {
       img: "https://picsum.photos/200",
@@ -46,7 +46,7 @@ export default function Chat () {
       language: "Gia đình, Kinh doanh, Phong thủy",
       exp: "21 Tuổi",
       time: "Chỉ  từ 5 cua",
-      active: true
+      active: true,
     },
     {
       img: "https://picsum.photos/200",
@@ -55,7 +55,7 @@ export default function Chat () {
       language: "Gia đình, Kinh doanh, Phong thủy",
       exp: "21 Tuổi",
       time: "Chỉ  từ 5 cua",
-      active: true
+      active: true,
     },
     {
       img: "https://picsum.photos/200",
@@ -64,9 +64,8 @@ export default function Chat () {
       language: "Gia đình, Kinh doanh, Phong thủy",
       exp: "21 Tuổi",
       time: "Chỉ  từ 5 cua",
-      active: false
-    }
-    
+      active: false,
+    },
   ];
   return (
     <div>
@@ -86,7 +85,7 @@ export default function Chat () {
           <input
             type="search"
             name="serch"
-            placeholder="Tìm kiếm theo tên" 
+            placeholder="Tìm kiếm theo tên"
             class="bg-white h-10 px-5 pr-10 rounded-full text-sm focus:outline-none "
           />
           <img src="https://img.icons8.com/material-outlined/24/000000/search.png" />
@@ -99,10 +98,15 @@ export default function Chat () {
 
       <div className="cart">
         {arrrCart.map((item, index) => {
+          setTimeout(() => {
+            document
+              .getElementsByClassName("card-background")[index]
+              .classList.remove("loading");
+          }, 5000);
           return (
-            <div className="card-background" key={index}>
+            <div className="card-background loading" key={index}>
               <div className="card-body">
-                <div className="card-l">
+                <div className="card-l ">
                   <img className="image" src={item.img} />
                   <div className="start">
                     <span className="half"> ★ </span>
@@ -132,7 +136,7 @@ export default function Chat () {
                   </Link>
 
                   <div className="card-button">
-                    <Link to='/formchat'>
+                    <Link to="/formchat">
                       <button className="button-chat">
                         {item.active ? "Trò chuyện" : "Chờ"}
                       </button>
