@@ -1,0 +1,88 @@
+
+.our-astrologer__card_cpn{
+  padding: 40px 0 30px;
+  background-color: rgb(138, 188, 190);
+}
+
+
+.our-astrologer__card {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  align-items: center;
+  display: inline-block;
+}
+
+html,
+body {
+  display: grid;
+  height: 100%;
+  place-items: center;
+  text-align: center;
+  background: #f2f2f2;
+}
+
+.slider {
+  max-width: 1150px;
+  display: flex;
+  align-items: center;
+}
+
+.slider .card {
+  background: #fff;
+  flex: 1;
+  margin: 0 10px;
+}
+
+.slider .card .img {
+  height: 200px;
+  width: 100%;
+}
+
+.slider .card .img img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.slider .card .content {
+  padding: 10px 20px;
+}
+
+.card .content .title {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.card .content .sub-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #e74c3c;
+  line-height: 20px;
+}
+
+.card .content p {
+  text-align: justify;
+  margin: 10 0px;
+}
+
+.card .content .btn {
+  display: block;
+  text-align: left;
+  margin: 10px 0px;
+}
+
+.card .content .btn button {
+  background: #e74c3c;
+  color: #fff;
+  border: none;
+  outline: none;
+  font-size: 17px;
+  padding: 5px 8px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.card .content .btn button:hover {
+  transform: scale(0.9);
+}

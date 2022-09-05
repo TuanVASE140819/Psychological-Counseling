@@ -1,4 +1,8 @@
 
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 .header-container{
     background-color: cadetblue;
     border-radius: 2px;
@@ -15,6 +19,7 @@
 }
 
 .chat-now-buttom{
+    font-size: 25px;
     padding: 10px;
     height: 100%;
     background-color: #FFFF00	;
@@ -26,14 +31,36 @@
     align-items: center;
     justify-content: center;
     font-weight: 800;
+    margin-left: 50%;
 }
+
+.chat-now-buttom:hover{
+    background-color: #0d0b02;
+    color: #FFFF00;
+    cursor: pointer;
+} 
+    
+
+
+
 
  .header_contain_right_side h2{
     padding-top: 20px;
 }
+
 /*
 .header_contain_left_side{
     width: 70%;
     float: left;
 } */
 
+.header_contain_right_side h2, .header_contain_right_side h1 {
+   
+    text-align: right;
+  
+}
+
+.header_contain_right_side  .chat-with-astrol {
+    font-size: 40px;
+
+}

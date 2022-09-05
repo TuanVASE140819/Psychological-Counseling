@@ -14,13 +14,14 @@ import productData from "../assets/fake-data/products";
 
 import banner from "../assets/images/banner.png";
 import HeaderConstant from "../components/HeaderConstantChinese";
+import OurAstrolCard from "../components/OurAstrolCard";
+import CardSliderProfile from "../components/CardSliderProfile";
+import TrustScore from "../components/TrustScore";
 
 const Home = () => {
   return (
-    
     <Helmet title="Trang chủ">
-
-<HeaderConstant />
+      <HeaderConstant />
 
       {/* policy section */}
       <Section>
@@ -38,7 +39,12 @@ const Home = () => {
           </Grid>
         </SectionBody>
       </Section>
-{/* 
+
+      <OurAstrolCard />
+      <CardSliderProfile />
+      <TrustScore />
+
+      {/* 
       hero slider
       <HeroSlider
         data={heroSliderData}
@@ -126,9 +132,7 @@ const Home = () => {
       {/* end popular product section */}
 
       {/* Constant header */}
-
     </Helmet>
-    
   );
 };
 
