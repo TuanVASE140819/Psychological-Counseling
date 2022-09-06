@@ -5,7 +5,7 @@ const OurAstrolCard = () => {
     <div className="our-astrologer__card_cpn">
       <div>
         <h1>LATEST FROM BLOG</h1>
-        <h2>Top Astrologers. 24 * 7 customer support. Happy to help</h2>
+        <h2>Các nhà chiêm tinh hàng đầu. Hỗ trợ khách hàng 24/7. Rất vui được giúp đỡ</h2>
       </div>
       <div className="our-astrologer__card">
         <div className="slider owl-carousel">

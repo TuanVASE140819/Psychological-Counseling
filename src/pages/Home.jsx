@@ -17,6 +17,8 @@ import HeaderConstant from "../components/HeaderConstantChinese";
 import OurAstrolCard from "../components/OurAstrolCard";
 import CardSliderProfile from "../components/CardSliderProfile";
 import TrustScore from "../components/TrustScore";
+import ChooseAstrol from "../components/ChooseAstrol";
+import FaqsAstrol from "../components/FaqsAstrol";
 
 const Home = () => {
   return (
@@ -43,6 +45,8 @@ const Home = () => {
       <OurAstrolCard />
       <CardSliderProfile />
       <TrustScore />
+      <ChooseAstrol/>
+      <FaqsAstrol/>
 
       {/* 
       hero slider
