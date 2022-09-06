@@ -1,11 +1,14 @@
 .policy-card {
   @include flex(center, flex-start);
   margin-top: 20px;
-  padding: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
   padding-left: 0;
   box-shadow: $box-shadow;
   transition: transform 0.5s ease;
   border-radius: 5px;
+  display: block;
+
 
   &:hover {
     transform: translateY(-20px);
@@ -33,4 +36,24 @@
       color: $txt-second-color;
     }
   }
+}
+
+.policy-card__icon{
+  display: inline-flex;
+  border-radius: 50%;
+  height: 70px;
+  width: 70px;  
+}
+.policy-card__icon i{
+  font-size: 60px;
+}
+
+.container-policy-card{
+  max-width: 95%;
+  margin: 0 auto;
+
+}
+
+.policy-card__info__name{
+  font-size: 20px;
 }

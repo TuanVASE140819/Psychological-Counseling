@@ -3,9 +3,10 @@ import PropTypes from 'prop-types'
 
 const PolicyCard = props => {
     return (
-        <div className="policy-card">
-            <div className="policy-card__icon">
-                <i className={props.icon}></i>
+    <div className="container-policy-card">
+         <div className="policy-card">
+            <div className="policy-card__icon" style={{backgroundColor: props.color}} >
+                <i className={props.icon} ></i>
             </div>
             <div className="policy-card__info">
                 <div className="policy-card__info__name">
@@ -16,6 +17,8 @@ const PolicyCard = props => {
                 </div>
             </div>
         </div>
+    </div>
+       
     )
 }
 

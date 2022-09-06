@@ -1,5 +1,6 @@
 .section {
     margin-bottom: 80px;
+    max-width: 90%;
 
     & > * ~ * {
         margin-top: 70px;
@@ -10,4 +11,8 @@
         text-transform: capitalize;
         text-align: center;
     }
+    
+   margin: 0 auto;
+   max-height: 400px;
+
 }

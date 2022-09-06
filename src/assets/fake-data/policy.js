@@ -3,16 +3,16 @@ const policy = [
     name: "Nhắn tin",
 
     icon: "bx bx-chat",
-    path: "chat"
+    path: "chat",
   },
   {
-    name: "Trò chuyên trực tiếp",
+    name: "Trò chuyện",
 
-    icon: "bx bx-credit-card",
+    icon: "bx bx-slideshow",
     path: "talk"
   },
   {
-    name: " Sự kiên trực tiếp",
+    name: "Sự kiện",
 
     icon: "bx bx-video-plus",
     path: "live"
