@@ -16,7 +16,7 @@ function HeaderConstantChinese() {
             </div>
             <div className="header_contain_right_side">
               <h1> kundli matchings</h1>
-              <h2>Trò chuyện với Astrologer</h2>
+              <h2 className="chat-with-astrol">Trò chuyện với Astrologer</h2>
               <h2>Miễn Phí</h2>
               <div className="chat-now-buttom">Trò chuyện Ngay</div>
             </div>
