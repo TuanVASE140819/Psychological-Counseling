@@ -3,7 +3,7 @@ import React from "react";
 function HeaderConstantChinese() {
   return (
     <div>
-      <div>
+      <div className="header-container-cl">
         <div className="header-container">
           <div className="header_contain">
             <div className="header_contain_left_side">
