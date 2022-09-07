@@ -12,7 +12,7 @@ const OurAstrolCard = () => {
           <div className="card">
             <div className="img">
               <img
-                src="https://firebasestorage.googleapis.com/v0/b/traveltogether-54339.appspot.com/o/Image%2F67f91bcb6e1325c38c488834da5bf80c.jpg?alt=media&token=cedca4f5-2002-43e3-a116-6457d49ab9b0"
+                src="https://firebasestorage.googleapis.com/v0/b/traveltogether-54339.appspot.com/o/Image%2F11a7fc2dc4f3889ce72278a9757291c7.jpg?alt=media&token=a5377d03-155b-4957-8dec-b3d4b92ce21f"
                 alt
               />
             </div>
@@ -33,7 +33,7 @@ const OurAstrolCard = () => {
           <div className="card">
             <div className="img">
               <img
-                src="https://scontent.fsgn5-12.fna.fbcdn.net/v/t39.30808-6/272988425_637138334247270_892214224820100350_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=DMmUo9IxrWQAX_RvrFn&_nc_ht=scontent.fsgn5-12.fna&oh=00_AT8g6TGt7cipeITwslvWT026EtSmuP41dT5UA0t81SVjzQ&oe=6317C4A3"
+                src="https://firebasestorage.googleapis.com/v0/b/traveltogether-54339.appspot.com/o/Image%2F5c5b47c8aff617d549adbd499e3d461e.jpg?alt=media&token=ac4a3d5f-6a85-4477-845c-a0c42e40be49"
                 alt
               />
             </div>
@@ -54,7 +54,7 @@ const OurAstrolCard = () => {
           <div className="card">
             <div className="img">
               <img
-                src="https://firebasestorage.googleapis.com/v0/b/traveltogether-54339.appspot.com/o/Image%2F270762511_2124124967725683_3121113359061837752_n.jpg?alt=media&token=1be1391e-8324-41c5-9d5e-44c34bf690fe"
+                src="https://firebasestorage.googleapis.com/v0/b/traveltogether-54339.appspot.com/o/Image%2Fc79edd08ba38cc4fd37689f8511ba34a.jpg?alt=media&token=eae9f3b2-41a6-4323-8e99-2c01f85ccb94"
                 alt
               />
             </div>
@@ -74,7 +74,7 @@ const OurAstrolCard = () => {
           <div className="card">
             <div className="img">
               <img
-                src="https://firebasestorage.googleapis.com/v0/b/traveltogether-54339.appspot.com/o/Image%2F254500543_952387208699983_3195604233875549696_n.jpg?alt=media&token=84b96cab-b23b-4b9f-83cb-18d0d6cba43f"
+                src="https://firebasestorage.googleapis.com/v0/b/traveltogether-54339.appspot.com/o/Image%2Ff32f2644dc8136d565e7d11413d2b3ec.jpg?alt=media&token=4809d595-60d6-4650-b14a-03f9aefc0dbe"
                 alt
               />
             </div>
