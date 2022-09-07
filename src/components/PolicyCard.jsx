@@ -5,7 +5,7 @@ const PolicyCard = props => {
     return (
     <div className="container-policy-card">
          <div className="policy-card">
-            <div className="policy-card__icon" style={{backgroundColor: props.color}} >
+            <div className="policy-card__icon" >
                 <i className={props.icon} ></i>
             </div>
             <div className="policy-card__info">

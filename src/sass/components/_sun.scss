@@ -1,0 +1,49 @@
+.sun-title {
+  background-color: #b67fe9;
+  max-height: auto;
+  max-width: 100%;
+  font-size: 30px;
+}
+
+.sun-title h1 {
+  font-size: 50px;
+  padding-top: 40px;
+}
+
+.center {
+  width: 1040px;
+  margin: auto;
+}
+
+
+
+
+.center section a {
+  background: #fff;
+  color: #000;
+  text-decoration: none;
+  text-align: center;
+  padding: 10px;
+  display: block;
+  font-size: 1.3em;
+  letter-spacing: 3px;
+  overflow: hidden;
+  border-bottom: 3px solid #aaa69d;
+}
+
+.center section .abc {
+  padding: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  overflow: hidden;
+  height: 0;
+  opacity: 0;
+  background: #cbc7ce;
+  color: #fff;
+  letter-spacing: 2px;
+  transition: 3s;
+}
+section:target .abc {
+  height: auto;
+  opacity: 1;
+  padding: 20px;
+}
