@@ -14,11 +14,11 @@ const mainNav = [
   },
   {
     display: "Free Kundli",
-    path: "/PersonForm"
+    path: "/PalaceParadise"
   },
   {
     display: "Kudli Matiching",
-    path: "/kundlimatching"
+    path: "/PersonForm"
   }
 ];
 
