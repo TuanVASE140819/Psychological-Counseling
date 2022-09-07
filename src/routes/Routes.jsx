@@ -8,6 +8,7 @@ import Cart from "../pages/Cart";
 import Product from "../pages/Product";
 import Login from "../pages/Login";
 import PersonForm from "../pages/PersonForm";
+import PalaceParadise from "../pages/PalaceParadise";
 import Chat from "../components/Chat";
 import Talk from "../components/Talk";
 import Profile from "../pages/Profile";
@@ -28,6 +29,7 @@ const Routes = () => {
       <Route path='/formchat' component={FormChat} />
       <Route path='/formcall' component={FormCall} />
       <Route path='/talk' component={Talk} />
+      <Route path='/PalaceParadise' component={PalaceParadise} />
     </Switch>
   );
 };
