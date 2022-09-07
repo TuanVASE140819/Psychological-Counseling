@@ -38,7 +38,7 @@ function PalaceParadise() {
                         và so sánh các chú giải nhé!
                       </span>
                     </p>
-                    <p >
+                    <p>
                       <span
                         style={{
                           fontWeight: 400,

@@ -10,7 +10,7 @@ const mainNav = [
   },
   {
     display: "Live Astrologers",
-    path: "/live"
+    path: "/Sun"
   },
   {
     display: "Free Kundli",
