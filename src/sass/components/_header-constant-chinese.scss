@@ -64,3 +64,13 @@
   height: 400px;
   padding-top: 3%;
 }
+// ======================
+
+
+.as_banner_img img{
+  animation: spin 9s infinite linear;
+  -webkit-animation: spin 9s infinite linear;
+  -moz-animation: spin 9s infinite linear;
+  display: inline-block;
+  width: 100%;
+}

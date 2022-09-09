@@ -19,6 +19,7 @@ import CardSliderProfile from "../components/CardSliderProfile";
 import TrustScore from "../components/TrustScore";
 import ChooseAstrol from "../components/ChooseAstrol";
 import FaqsAstrol from "../components/FaqsAstrol";
+import HoroscopeWrapper from "../components/HoroscopeWrapper";
 
 const Home = () => {
   return (
@@ -44,6 +45,7 @@ const Home = () => {
 
       <OurAstrolCard />
       <CardSliderProfile />
+      <HoroscopeWrapper/>
       <TrustScore />
       <ChooseAstrol/>
       <FaqsAstrol/>

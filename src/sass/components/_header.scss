@@ -7,6 +7,7 @@
   position: fixed;
   top: 0;
   left: 0;
+  height: 100px;
   width: 100%;
   z-index: 99;
   height: $header-height;
@@ -40,9 +41,10 @@
     position: absolute;
     inset: 0;
     pointer-events: none;
+    padding-bottom: 5px;
 
     img {
-      height: 28px;
+      height: 140px;
     }
   }
 
@@ -65,6 +67,7 @@
 
     &__item.active {
       font-weight: 600;
+      // color: $main-color;
       color: $main-color;
     }
 
