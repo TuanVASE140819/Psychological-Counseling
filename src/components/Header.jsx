@@ -5,19 +5,19 @@ import logo from "../assets/images/Logo-2.png";
 
 const mainNav = [
   {
-    display: "Home",
+    display: "Trang Chủ",
     path: "/"
   },
   {
-    display: "Live Astrologers",
+    display: "Trực Tiếp",
     path: "/Sun"
   },
   {
-    display: "Free Kundli",
+    display: "Cung Địa Đàng",
     path: "/PalaceParadise"
   },
   {
-    display: "Kudli Matiching",
+    display: "Matiching",
     path: "/PersonForm"
   }
 ];

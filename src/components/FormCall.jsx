@@ -223,19 +223,23 @@ export default function FormCall () {
                             <div className='col-md-4 col-sm-6 col-12'>
                                 <div className='form-group'>
                                     <label >Họ:<span>*</span> </label>
-                                    <input className='form-control' placeholder='Họ' />
+                               
+
+
+
+                                    <input type='text' className='form-control' placeholder='Họ' required='' />
                                 </div>
                             </div>
                             <div className='col-md-4 col-sm-6 col-12'>
                                 <div className='form-group'>
                                     <label >Tên:</label>
-                                    <input className='form-control' placeholder='Tên' />
+                                    <input className='form-control' placeholder='Tên' required />
                                 </div>
                             </div>
                             <div className='col-md-4 col-sm-6 col-12'>
                                 <div className='form-group'>
                                     <label >Giới Tính:<span>*</span> </label>
-                                    <select className='form-control select-gender' placeholder='Select Gender'>
+                                    <select className='form-control select-gender' placeholder='Select Gender' required>
                                         <option>Nam</option>
                                         <option>Nữ</option>
                                     </select>
@@ -247,13 +251,13 @@ export default function FormCall () {
                                 <div className='form-group'>
                                     <label >Số điện thoại: <span>*</span> </label>
                                     <div className='row'>
-                                        <select className='col-md-4 col-sm-4 col-4 select-left '>
+                                        <select className='col-md-4 col-sm-4 col-4 select-left required'>
 
                                             <option>84</option>
                                         </select>
 
                                         <div className='col-md-8 col-sm-8 col-6 mobile-box'>
-                                            <input className='form-control' placeholder='Nhập số điện thoại' />
+                                            <input className='form-control' placeholder='Nhập số điện thoại' required />
                                         </div>
                                     </div>
                                 </div>
@@ -267,7 +271,7 @@ export default function FormCall () {
                                                 <i className='fa fa-calendar' />
 
                                             </div> */}
-                                            <input type='date' className='form-control cala-formm' />
+                                            <input type='date' className='form-control cala-formm' required />
                                         </div>
                                     </div>
                                 </div>
@@ -278,7 +282,7 @@ export default function FormCall () {
                                     <div className='input-group datetime '>
                                         <div className='input-group'>
 
-                                            <input type='time' className='form-control cala-formm' />
+                                            <input type='time' className='form-control cala-formm' required/>
                                         </div>
                                     </div>
                                 </div>
@@ -288,13 +292,13 @@ export default function FormCall () {
                             <div className='col-md-4 col-sm-6 col-12'>
                                 <div className='form-group'>
                                     <label >Nhập nơi sinh:<span>*</span> </label>
-                                    <input className='form-control' placeholder='Nhập nơi sinh' />
+                                    <input className='form-control' placeholder='Nhập nơi sinh' required/>
                                 </div>
                             </div>
                             <div className='col-md-4 col-sm-6 col-12'>
                                 <div className='form-group'>
                                     <label >Tình trạng hôn nhân:<span>*</span> </label>
-                                    <select className='form-control select-gender' placeholder='Select Marital Status'>
+                                    <select className='form-control select-gender' placeholder='Select Marital Status' required>
                                         <option>Độc thân</option>
                                         <option>Kết hôn</option>
                                         <option></option>
@@ -304,7 +308,7 @@ export default function FormCall () {
                             <div className='col-md-4 col-sm-6 col-12'>
                                 <div className='form-group'>
                                     <label >Nghề nghiệp: </label>
-                                    <select className='form-control select-gender' placeholder='Select Employed in'>
+                                    <select className='form-control select-gender' placeholder='Select Employed in' required>
                                         <option>Private Sector</option>
                                         <option>Gvot Sector</option>
                                         <option>Civil Services</option>
@@ -314,7 +318,7 @@ export default function FormCall () {
                             <div className='col-md-4 col-sm-6 col-12'>
                                 <div className='form-group'>
                                     <label >Chủ đề quan tâm: </label>
-                                    <select className='form-control select-gender' placeholder='Select Topic of cncern'>
+                                    <select className='form-control select-gender' placeholder='Select Topic of cncern' required>
                                         <option>Sự nghiệp và Kinh doanh</option>
                                         <option>Hôn nhân</option>
                                         <option>Tình yêu mối quan hệ</option>
@@ -370,7 +374,7 @@ export default function FormCall () {
                     dataSource={data}
                 />
             </div>
-        </form >
+        </form>
 
 
     }
@@ -410,7 +414,7 @@ export default function FormCall () {
             <div className="steps-content">{steps[current].content}</div>
             <div className="steps-action text-right" >
                 {current < steps.length - 1 && (
-                    <Button style={{background:"#9a75f0"}} type="primary" onClick={() => next()}>
+                    <Button style={{background:"#9a75f0"}} type="text" onClick={() => next()}>
                         Tiếp
                     </Button>
                 )}
