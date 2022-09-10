@@ -19,6 +19,10 @@ const mainNav = [
   {
     display: "Matiching",
     path: "/PersonForm"
+  },
+  {
+    display: "Shop",
+    path: "/catalog"
   }
 ];
 

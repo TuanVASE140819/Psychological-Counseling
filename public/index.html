@@ -122,6 +122,17 @@
 
 
 
+<script>
+  $(document).on("scroll", function() {
+   if ($(document).scrollTop() >= 0) {
+     $(".header__logo").css({"display":"none"});
+   } 
+    if($(document).scrollTop() <=1) {
+     $(".header__logo").css({"display":"initial"});
+   }
+ });
+</script>
+
 </body>
 
 </html>
