@@ -22,7 +22,7 @@
     height: $header-mobile-height;
   }
 
-  .container {
+  .container-header {
     height: 100%;
   }
 
@@ -47,6 +47,7 @@
       height: 140px;
     }
   }
+ 
 
   &__menu {
     @include flex(center, space-between);
@@ -200,4 +201,8 @@
 
 .header__menu__right{
   padding-right: 5%;
+}
+
+.header__logo::after{
+ display: none;
 }
