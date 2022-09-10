@@ -22,7 +22,7 @@
     height: $header-mobile-height;
   }
 
-  .container {
+  .container-header {
     height: 100%;
   }
 
@@ -203,6 +203,6 @@
   padding-right: 5%;
 }
 
-.header__logo:after{
-  display: none;
+.header__logo::after{
+ display: none;
 }

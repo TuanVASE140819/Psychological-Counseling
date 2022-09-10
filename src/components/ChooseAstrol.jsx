@@ -239,6 +239,11 @@ const ChooseAstrol = () => {
           {/**/}
         </div>
       </section>
+
+
+
+
+      
     </div>
   );
 };

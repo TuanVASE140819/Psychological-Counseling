@@ -107,9 +107,13 @@
   <script src="js/main.js"></script>
   <!-- <script src="register.js"></script> -->
   <script>
+    
   </script>
-
-
+  <!-- ==========================================================================================font-farmily -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
+<!--  -->
 
   <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
@@ -119,6 +123,16 @@
       autoplayTimeout: 2000,
       autoplayHoverPause: true,
     });</script>
+
+  <script >$(document).on("scroll", function() {
+    if ($(document).scrollTop() >= 0) {
+      $(".header__logo img").css({"display":"none"});
+    } 
+     if($(document).scrollTop() <=1) {
+      $(".header__logo img").css({"display":"initial"});
+    }
+  });</script>
+  
 
 
 

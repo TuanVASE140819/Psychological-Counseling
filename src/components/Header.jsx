@@ -21,7 +21,7 @@ const mainNav = [
     path: "/PersonForm"
   },
   {
-    display: "Shop",
+    display: "Cửa Hàng",
     path: "/catalog"
   }
 ];
@@ -54,7 +54,8 @@ const Header = () => {
 
   return (
     <div className="header" ref={headerRef}>
-      <div className="container">
+      <div className="container-header">
+      
         <div className="header__logo">
           <Link to="/">
             <img src={logo} alt="" />
