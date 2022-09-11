@@ -1641,7 +1641,7 @@ input:checked ~ .custom-checkbox__checkmark > i {
   margin-bottom: 20px;
 }
 
-.cart__item {
+/* .cart__item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1652,7 +1652,7 @@ input:checked ~ .custom-checkbox__checkmark > i {
       -ms-flex-pack: start;
           justify-content: flex-start;
   margin-bottom: 20px;
-}
+} */
 
 .cart__item__image {
   margin-right: 20px;

@@ -22,8 +22,7 @@ const ProductCard = (props) => {
           <img src={props.img02} alt="" />
         </div>
         <h3 className="product-card__name">{props.name}</h3>
-        <h3 className="product-card__skill">{props.skll}</h3>
-        <h3 className="product-card__name">{props.lang}</h3>
+        <h3 className="product-card__name">{props.skll}</h3>
         <div className="product-card__price">
           {numberWithCommas(props.price)}
           <span className="product-card__price__old">
@@ -38,7 +37,7 @@ const ProductCard = (props) => {
           animate={true}
           onClick={() => dispatch(set(props.slug))}
         >
-          CHAT / CALL
+          chọn mua
         </Button>
       </div>
     </div>
