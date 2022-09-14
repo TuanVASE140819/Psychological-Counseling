@@ -9,6 +9,7 @@ import Product from "../pages/Product";
 import Login from "../pages/Login";
 import PersonForm from "../pages/PersonForm";
 import PalaceParadise from "../pages/PalaceParadise";
+import Horoscope from "../pages/Horoscope";
 import Sun from "../pages/Sun";
 import Chat from "../components/Chat";
 import Talk from "../components/Talk";
@@ -32,6 +33,7 @@ const Routes = () => {
       <Route path='/talk' component={Talk} />
       <Route path='/PalaceParadise' component={PalaceParadise} />
       <Route path='/Sun' component={Sun} />
+      <Route path='/Horoscope' component={Horoscope} />
     </Switch>
   );
 };
