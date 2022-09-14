@@ -18,7 +18,7 @@ const mainNav = [
   },
   {
     display: "Matiching",
-    path: "/PersonForm"
+    path: "/horoscope"
   },
   {
     display: "Cửa Hàng",

@@ -1,0 +1,47 @@
+.page-title-horoscope {
+  height: 60px;
+  max-width: 18%;
+  text-align: justify;
+  margin-left: 20px;
+  font-size: 30px;
+}
+.post-1437 h1 {
+  border-bottom: 2px solid rgba(0, 0, 0, 0.9);
+  display: inline-flexbox;
+  margin-top: 10px;
+  font-size: 37px;
+}
+
+.page-w .page-content {
+  display: table-cell;
+  vertical-align: top;
+  width: 70%;
+  padding-right: 50px;
+}
+
+.page-w .page-sidebar {
+  display: table-cell;
+  vertical-align: top;
+  width: 30%;
+}
+
+.single-post-meta .post-categories-w {
+  display: flex;
+  font-size: 20px;
+  margin-left: 20px;
+}
+.single-post-meta .post-categories-w ul,
+li {
+  display: flex;
+  margin: 3px 0 0 10px;
+}
+
+.title-left-astrol
+{
+    margin-left: 20px;
+    font-size: 30px;
+}
+
+.shortcode-categories-icons{
+    display: inline-block;
+}
