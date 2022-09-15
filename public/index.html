@@ -107,13 +107,13 @@
   <script src="js/main.js"></script>
   <!-- <script src="register.js"></script> -->
   <script>
-    
+
   </script>
   <!-- ==========================================================================================font-farmily -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
-<!--  -->
+  <!--  -->
 
   <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
@@ -124,28 +124,64 @@
       autoplayHoverPause: true,
     });</script>
 
-  <script >$(document).on("scroll", function() {
-    if ($(document).scrollTop() >= 0) {
-      $(".header__logo img").css({"display":"none"});
-    } 
-     if($(document).scrollTop() <=1) {
-      $(".header__logo img").css({"display":"initial"});
-    }
-  });</script>
-  
+  <script>$(document).on("scroll", function () {
+      if ($(document).scrollTop() >= 0) {
+        $(".header__logo img").css({ "display": "none" });
+      }
+      if ($(document).scrollTop() <= 1) {
+        $(".header__logo img").css({ "display": "initial" });
+      }
+    });</script>
 
 
 
-<script>
-  $(document).on("scroll", function() {
-   if ($(document).scrollTop() >= 0) {
-     $(".header__logo").css({"display":"none"});
-   } 
-    if($(document).scrollTop() <=1) {
-     $(".header__logo").css({"display":"initial"});
-   }
- });
-</script>
+
+  <script>
+    $(document).on("scroll", function () {
+      if ($(document).scrollTop() >= 0) {
+        $(".header__logo").css({ "display": "none" });
+      }
+      if ($(document).scrollTop() <= 1) {
+        $(".header__logo").css({ "display": "initial" });
+      }
+    });
+  </script>
+
+
+  <script src="public/js/signin/singin.js">
+ console.clear();
+
+const loginBtn = document.getElementById('login');
+const signupBtn = document.getElementById('signup');
+ 
+
+loginBtn.addEventListener('click', (e) => {
+	let parent = e.target.parentNode.parentNode;
+	Array.from(e.target.parentNode.parentNode.classList).find((element) => {
+		if(element !== "slide-up") {
+			parent.classList.add('slide-up')
+		}else{
+			signupBtn.parentNode.classList.add('slide-up')
+			parent.classList.remove('slide-up')
+		}
+	});
+});
+
+signupBtn.addEventListener('click', (e) => {
+	let parent = e.target.parentNode;
+	Array.from(e.target.parentNode.classList).find((element) => {
+		if(element !== "slide-up") {
+			parent.classList.add('slide-up')
+		}else{
+			loginBtn.parentNode.parentNode.classList.add('slide-up')
+			parent.classList.remove('slide-up')
+		}
+	});
+});
+
+
+  </script>
+
 
 </body>
 
