@@ -16,6 +16,7 @@ import Talk from "../components/Talk";
 import Profile from "../pages/Profile";
 import FormChat from "../components/FormChat";
 import FormCall from "../components/FormCall";
+import Signup from "../pages/Signup";
 
 const Routes = () => {
   return (
@@ -34,6 +35,7 @@ const Routes = () => {
       <Route path='/PalaceParadise' component={PalaceParadise} />
       <Route path='/Sun' component={Sun} />
       <Route path='/Horoscope' component={Horoscope} />
+      <Route path='/signup' component={Signup} />
     </Switch>
   );
 };
