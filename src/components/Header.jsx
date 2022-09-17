@@ -22,7 +22,7 @@ const mainNav = [
   },
   {
     display: "Cửa Hàng",
-    path: "/catalog"
+    path: "/dailyAstrol"
   }
 ];
 

@@ -2,35 +2,44 @@ import React from "react";
 
 function Signup() {
   return (
-    <div>
-      <div class="form-structor">
-        <div class="signup">
-          <h2 class="form-title" id="signup">
-            <span>or</span>Sign up
-          </h2>
-          <div class="form-holder">
-            <input type="text" class="input" placeholder="Name" />
-            <input type="email" class="input" placeholder="Email" />
-            <input type="password" class="input" placeholder="Password" />
-          </div>
-          <button class="submit-btn">Sign up</button>
+    <div className="container-signin-register">
+      <div className="main-signin">
+        <input type="checkbox" id="chk" aria-hidden="true" />
+        <div className="signup">
+          <form>
+            <label className="label-L-G" htmlFor="chk" aria-hidden="true">
+              Sign up
+            </label>
+            <input className="ip-file" type="text" name="txt" placeholder="User name" required />
+            <input className="ip-file" type="email" name="email" placeholder="Email" required />
+            <input
+            className="ip-file"
+              type="password"
+              name="pswd"
+              placeholder="Password"
+              required
+            />
+            <button className="btn-L-R" >Sign up</button>
+          </form>
         </div>
-        <div class="login slide-up">
-          <div class="center">
-            <h2 class="form-title" id="login">
-              <span></span>Log in
-            </h2>
-            <div class="form-holder">
-              <input type="email" class="input" placeholder="Email" />
-              <input type="password" class="input" placeholder="Password" />
-            </div>
-            <button class="submit-btn">Log in</button>
-          </div>
+        <div className="login">
+          <form>
+            <label className="label-L-G" htmlFor="chk" aria-hidden="true">
+              Login
+            </label>
+            <input className="ip-file" type="email" name="email" placeholder="Email" required />
+            <input
+            className="ip-file"
+              type="password"
+              name="pswd"
+              placeholder="Password"
+              required
+            />
+            <button className="btn-L-R">Login</button>
+          </form>
         </div>
       </div>
     </div>
-
-    
   );
 }
 
