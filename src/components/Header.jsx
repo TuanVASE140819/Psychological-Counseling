@@ -10,7 +10,7 @@ const mainNav = [
   },
   {
     display: "Trực Tiếp",
-    path: "/Sun"
+    path: "/HomeLive"
   },
   {
     display: "Cung Địa Đàng",

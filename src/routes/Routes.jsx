@@ -19,6 +19,11 @@ import FormCall from "../components/FormCall";
 import Signup from "../pages/Signup";
 import DailyAstrol from "../pages/DailyAstrol";
 
+//Live Stream
+import HomeLive from "../pages/LiveStream/HomeLive";
+import LobbyLive from "../pages/LiveStream/LobbyLive";  
+import RoomLive from "../pages/LiveStream/RoomLive";
+
 const Routes = () => {
   return (
     <Switch>
@@ -38,6 +43,12 @@ const Routes = () => {
       <Route path='/Horoscope' component={Horoscope} />
       <Route path='/signup' component={Signup} />
       <Route path='/dailyAstrol' component={DailyAstrol} />
+      {/* Live Stream */}
+      <Route path='/HomeLive' component={HomeLive} />
+      <Route path='/LobbyLive' component={LobbyLive} />
+      <Route path='/RoomLive' component={RoomLive} />
+      
+
     </Switch>
   );
 };
